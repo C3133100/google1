@@ -11,6 +11,14 @@
         border: 1px solid blue;
         font-weight:900;
         font-size:20px;
+        color:white;
+    }
+    .form-group img{
+
+        width: 200px;
+        height:200px; 
+        margin-left:30px;
+        border:5px solid royalblue;
     }
    h1{
         font-weight:900;
