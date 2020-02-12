@@ -45,3 +45,7 @@
         color:rgb(199, 12, 199);
     }
   
+    body img{
+        margin-left:auto;
+        margin-right:auto;        
+    }

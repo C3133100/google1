@@ -43,9 +43,14 @@
             <div class="col-sm-3">
                 <div class="form-group">
                     <label>合計</label>
-                <input type="text" class="form-control" style=background-color:lightgray;  name="total" id="total" value="" readonly>
+                <input type="text" class="form-control" style=background-color:lightgray;  name="entry.1700751466" id="1700751466" value="" readonly>
                 </div>
-            </div>    
+            </div> 
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <a class="btn btn-success btn-block btn-lg my-20" href="contact_me.html" target:"_blank">問題提問 </a>
+                </div>
+            </div>   
         </div>
             <div class="row">
                 <!--雞腿飯-90元--> 
@@ -97,10 +102,12 @@
 
             <div class="text-center pb-3">
                 <button type="submit" class="btn btn-primary">送出</button>
+              
             </div>
 
         </form>
     </div>
+    <img src="img/200112164339.gif">
     <!--表單標題結束-->
 
     <!-- Optional JavaScript -->
@@ -134,7 +141,7 @@
                     }, 'entry.2005836882':{
                         digits:true,
                          min:0
-                    }, 'total':{
+                    }, 'entry.1700751466':{
                         required: true
 
                     }
@@ -157,7 +164,7 @@
                         digits:"請填正確數量",
                         min:"請填正確購買數量"
                     },
-                    'total' : {//合計
+                    'entry.1700751466' : {//合計
                         required: "尚未點餐"
                     }
                 }
@@ -186,10 +193,10 @@
             }
                 if (total === 0){
                     
-                document.getElementById("total").value ="";
+                document.getElementById("1700751466").value ="";
                 }else{
            
-                document.getElementById("total").value = total;
+                document.getElementById("1700751466").value = total;
         } }  
 
        
